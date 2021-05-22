@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/egor_datsishin/Downloads/Python/Курсы/Яндекс.Практикум/5 месяц/10_спринт/07_Фильтрация и безопасность в API/01_Авторизация (проверка прав)/_files/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip_upgrader.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
