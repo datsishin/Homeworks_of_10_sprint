@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f11a2da0-0f1d-4f0f-a354-71df12feeb98" name="Default Changelist" comment="v1.1 – Второе задания 10-го спринта. Добавлены ограничения на кол-во запросов авторизированных и неавторизированных пользователей.">
+    <list default="true" id="f11a2da0-0f1d-4f0f-a354-71df12feeb98" name="Default Changelist" comment="v1.2 – Третье задание 10-го спринта. Добавлена пагинация для вывода экземпляров классов.">
+      <change afterPath="$PROJECT_DIR$/posts/pagination.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yatube_api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/yatube_api/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -45,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621875254112</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v1.2 – Третье задание 10-го спринта. Добавлена пагинация для вывода экземпляров классов.">
+      <created>1621951876545</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621951876545</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,6 +80,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.1 – Второе задания 10-го спринта. Добавлены ограничения на кол-во запросов авторизированных и неавторизированных пользователей." />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1 – Второе задания 10-го спринта. Добавлены ограничения на кол-во запросов авторизированных и неавторизированных пользователей." />
+    <MESSAGE value="v1.2 – Третье задание 10-го спринта. Добавлена пагинация для вывода экземпляров классов." />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.2 – Третье задание 10-го спринта. Добавлена пагинация для вывода экземпляров классов." />
   </component>
 </project>
