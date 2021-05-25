@@ -132,4 +132,6 @@ REST_FRAMEWORK = {
         'user': '20/day',  # лимит для UserRateThrottle
         'anon': '10/day',  # лимит для AnonRateThrottle
     },
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 100,
 }
